@@ -20,16 +20,13 @@ if (isset($_SESSION['numerosAleatorios'])) {
         return $array;
     }
 
-    // Marcar o tempo de início
     $startTime = microtime(true);
 
     // Executa o algoritmo BubbleSort
     $numerosOrdenados = bubbleSort($numerosAleatorios);
 
-    // Marcar o tempo de fim
     $endTime = microtime(true);
 
-    // Calcula o tempo de execução
     $executionTime = $endTime - $startTime;
 }
 ?>

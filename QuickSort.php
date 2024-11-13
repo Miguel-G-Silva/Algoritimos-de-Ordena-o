@@ -33,16 +33,13 @@ if (isset($_SESSION['numerosAleatorios'])) {
     }
 }
 
-// Marcar o tempo de início
 $startTime = microtime(true);
 
 // Executa o algoritmo QuickSort
 $sortedArray = quickSort($numerosAleatorios);
 
-// Marcar o tempo de fim
 $endTime = microtime(true);
 
-// Calcula o tempo de execução
 $executionTime = $endTime - $startTime;
 
 ?>

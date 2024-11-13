@@ -52,7 +52,6 @@ $startTime = microtime(true);
 $sortedArray = mergeSort($numerosAleatorios);// Marcar o tempo de fim
 $endTime = microtime(true);
 
-// Calcula o tempo de execução
 $executionTime = $endTime - $startTime;
 
 
