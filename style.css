@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: #2f2f2f; /* Cor neutra de fundo */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card */
+.card {
+    background: linear-gradient(45deg, #f58529, #d20a2c); /* Gradiente inspirando o Instagram */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+.card h3 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+
+/* Estilo dos inputs */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="number"]:focus {
+    border-color: #f58529; /* Cor de foco do input */
+    outline: none;
+}
+
+/* Botão */
+button {
+    padding: 10px;
+    background: #f58529;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d20a2c;
+}
+
+/* Resultado */
+.result {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+a {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 10px;
+    background-color: #f58529; /* Cor de fundo do link */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #d20a2c; /* Cor de fundo no hover */
+    transform: scale(1.05); /* Efeito de aumento de tamanho */
+}
